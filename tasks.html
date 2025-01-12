@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Task List</h1>
+    </header>
+
+    <table>
+        <caption>Tasks Overview</caption>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Category</th>
+                <th>Priority Level</th>
+                <th>Progress Level</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sample Task 1</td>
+                <td>Complete the project report</td>
+                <td>Work</td>
+                <td>High</td>
+                <td>In Progress</td>
+            </tr>
+            <tr>
+                <td>Sample Task 2</td>
+                <td>Buy groceries</td>
+                <td>Personal</td>
+                <td>Medium</td>
+                <td>Not Started</td>
+            </tr>
+            <tr>
+                <td>Sample Task 3</td>
+                <td>Fix the bug in the app</td>
+                <td>Work</td>
+                <td>High</td>
+                <td>Completed</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
