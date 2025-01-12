@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name's Personal Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h2, p {
+            margin: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 5px 0;
+        }
+        ol {
+            margin-left: 20px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        form {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input[type="text"], input[type="email"], input[type="number"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        textarea {
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Name</h1>
+    </header>
+
+    <h2>About Me</h2>
+    <p>
+        Hello! My name is [Your Name]. Below is a brief overview of my background:
+    </p>
+
+    <h3>My Background</h3>
+    <p><strong>Date of Birth:</strong> [Your Date of Birth]</p>
+    <p><strong>Education:</strong> [Your Education]</p>
+    <p><strong>Projects I've Worked On:</strong></p>
+    <ul>
+        <li>
+            Project 1: [Project Name] 
+            <button onclick="window.location.href='https://link-to-project-1.com';">View Project</button>
+        </li>
+        <li>
+            Project 2: [Project Name]
+            <button onclick="window.location.href='https://link-to-project-2.com';">View Project</button>
+        </li>
+        <li>
+            Project 3: [Project Name]
+            <button onclick="window.location.href='https://link-to-project-3.com';">View Project</button>
+        </li>
+    </ul>
+
+    <h3>Current Job:</h3>
+    <p>[Your Current Job]</p>
+
+    <h3>Languages I Speak:</h3>
+    <ul>
+        <li>English</li>
+        <li>Spanish</li>
+        <li>French</li>
+        <!-- Add more languages as needed -->
+    </ul>
+
+    <h3>Courses I Attended:</h3>
+    <ol>
+        <li>Course 1 (Newest)</li>
+        <li>Course 2</li>
+        <li>Course 3 (Oldest)</li>
+        <!-- Add more courses as needed -->
+    </ol>
+
+    <h3>Contact Me</h3>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+
+        <label for="request">Request:</label>
+        <textarea id="request" name="request" required></textarea>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
